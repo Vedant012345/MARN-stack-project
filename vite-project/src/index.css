@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "poppins",'sans-serif';
+}
+
+.modal-box {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+@media screen and (max-width: 768px) {
+    .modal-box {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+  }
